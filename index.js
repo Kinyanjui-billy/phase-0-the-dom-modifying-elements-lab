@@ -1,6 +1,8 @@
 document.getElementById(`main`).remove();
-var newHeader = document.vreateElement(`h1`);
-newHeader.innerHtml = "LUKKAAA is the champion";
-// innertext = document.createTextNode("LUKAAA is the champion");
+
+var newHeader = document.createElement(`h1`);
+newHeader.setAttribute("id", "victory");
+newHeader.innerHtml = "YOUR-NAME is the champion";
+// innertext = document.createTextNode("YOUR-NAME is the champion");
 //newheader.appendchild(innerText);
-document.body.appendChild(newHeader);
+newHeader.innerHTML = "Billy is the champion";
